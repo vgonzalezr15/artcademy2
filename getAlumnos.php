@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 }
 
 // Consulta SQL para obtener los datos de la tabla "alumnos"
-$sql = "SELECT alumnos_id, nombre, fecha_nacimiento FROM alumnos";
+$sql = "SELECT alumnos_id, nombre, fecha_nacimiento FROM Alumnos";
 $result = $conn->query($sql);
 
 // Verificar si hay resultados
